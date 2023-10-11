@@ -1,0 +1,142 @@
+*{
+    margin: 0px;
+}
+body,html{
+    height: 100%;
+    margin: 0;
+    font:15px/1.8 "Lato", sans-serif;
+    color:#000
+}
+header{
+    background-color: rgb(247, 247, 247);
+    color: #000000;
+    position: relative;
+}
+.logo{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:30px;
+}
+.navegacao{
+    
+    margin-left: 30%;
+}
+.navegacao, a{
+    padding-right: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.parallax1{
+    position:relative;
+    background-image: url("/img/img1.jpg");
+    height: 100%;
+    opacity: 0.75;/* para traslucides */
+    background-attachment: fixed;
+    background-position: center; /* posiciona a imagem, dentralizando-a*/
+    background-repeat: no-repeat; /*não permite repetição da imagem*/
+    background-size: cover;/*  redimenciona a imagem de acordo com a área visivel, mantendo a proporção */
+}
+
+ .caption{ /*define o posicionamento do texto "scrool up e down"*/
+    position: absolute;/*  vc que diz, atraves das cordenadas onde vai ficar o conteudo  */
+    left: 0;
+    top: 50%;
+    width: 100%;
+    font-size:2vw;
+    text-align: center;
+    color: #000;
+}
+
+ .caption span.border{/* define a cor do texto (sroll down e up) e expaçamento */
+    background-color: #ff0000;
+    color: rgba(255, 255, 255, 0)000;
+    padding: 18px;
+    letter-spacing: 10px;
+}
+
+.parallax2{
+    position: relative;
+    background-image: url("/img/img2.jpg");
+    min-height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax2 span.border{
+    background-color:rgb(21, 0, 255);
+    font-size: 25px;
+    color: #f7f7f7;
+}
+
+.parallax3{
+    position:relative;
+    background-image: url("/img/img3.png");
+    min-height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax3 span.border{
+    background-color: rgb(21, 0, 255);
+    font-size: 25px;
+    color: #f7f7f7;
+}
+
+.parallax4{
+    position:relative;
+    background-image: url("/img/img4.jpg");
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center; /* posiciona a imagem, dentralizando-a*/
+    background-repeat: no-repeat; /*não permite repetição da imagem*/
+    background-size: cover;/*  redimenciona a imagem de acordo com a área visivel, mantendo a proporção */
+}
+.parallax5{
+    position:relative;
+    background-image: url("/img/img5.webp");
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center; /* posiciona a imagem, dentralizando-a*/
+    background-repeat: no-repeat; /*não permite repetição da imagem*/
+    background-size: cover;/*  redimenciona a imagem de acordo com a área visivel, mantendo a proporção */
+}
+.parallax5 span.border{
+    background-color: rgb(21, 0, 255);
+    font-size: 25px;
+    color: #f7f7f7;
+}
+.parallax6{
+    position:relative;
+    background-image: url("/img/img6.jpg");
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center; /* posiciona a imagem, dentralizando-a*/
+    background-repeat: no-repeat; /*não permite repetição da imagem*/
+    background-size: cover;/*  redimenciona a imagem de acordo com a área visivel, mantendo a proporção */
+}
+.box1{
+    color: #000000c9;
+   background-color: rgba(254, 88, 88, 0.334);
+    text-align: justify;
+    padding: 50px 80px;
+}
+.box1 h3{
+    text-align: center;
+}
+.box1 h2{
+    text-align: center;
+}
+
+.box2{
+    color: #000000;
+    background-color: #1a81f639;
+    text-align: left;
+    padding: 50px 80px;
+}
+footer{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
